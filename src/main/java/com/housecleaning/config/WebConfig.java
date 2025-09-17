@@ -15,7 +15,8 @@ public class WebConfig {
                 registry.addMapping("/**")
                         .allowedOrigins(
                             "http://localhost:5173",
-                            "http://192.168.1.116:5173" // ✅ replace with your PC’s IP
+                            "http://192.168.1.116:5173",
+                            "https://frontend-one-coral-95.vercel.app" // ✅ replace with your PC’s IP
                         )
                         .allowedMethods("GET", "POST", "PUT", "DELETE", "OPTIONS")
                         .allowedHeaders("*")

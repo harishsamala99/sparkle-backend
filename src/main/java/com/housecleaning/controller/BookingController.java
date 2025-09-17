@@ -10,7 +10,7 @@ import java.util.List;
 
 @RestController
 @RequestMapping("/api/bookings")
-@CrossOrigin(origins = "http://localhost:5173") // Allow React frontend
+@CrossOrigin(origins = "https://frontend-one-coral-95.vercel.app") // Allow React frontend
 public class BookingController {
 
     @Autowired
